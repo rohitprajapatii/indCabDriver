@@ -1,0 +1,154 @@
+name: indcabdriver
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+  introduction_screen: ^1.0.7
+  shared_preferences: ^0.5.12+4
+  sms_otp_auto_verify: ^1.2.2
+  rating_bar: ^0.2.0
+  group_radio_button: ^1.0.1
+  grouped_buttons: ^1.0.4
+  intl: ^0.16.1
+  after_layout: ^1.0.7+2
+  #  flutter_svg: ^0.20.0-nullsafety.3
+  flutter_svg: ^0.19.1
+  #  path_drawing: ^0.5.0-nullsafety.0
+  ff_navigation_bar: ^0.1.5
+  list_tile_switch: ^0.0.2
+  #  fl_chart: ^0.12.3
+  fdottedline: ^1.0.1
+  google_maps_flutter: ^1.0.6
+  badges: ^1.1.6
+  image_picker: ^0.6.7+17
+  toast: ^0.1.5
+  flutter_custom_clippers: ^1.1.2
+  flutter_otp: ^0.3.2
+  json_annotation: ^3.1.0
+  retrofit: ^1.3.4+1
+  http: ^0.12.2
+  google_places_flutter: ^2.0.3
+  dio: ^3.0.10
+
+  path_provider: ^1.6.27
+  loading_overlay: ^0.2.1
+  animating_location_pin: ^0.1.0
+  permission_handler: ^5.1.0+2
+  awesome_dialog: ^1.3.1
+  email_validator: ^1.0.6
+  rflutter_alert: ^1.1.0
+  firebase_auth: ^0.18.3
+  firebase_core: ^0.5.2
+  geolocator: ^6.2.1
+  modal_bottom_sheet: ^1.0.0+1
+  simple_timer: ^1.0.1
+  circular_countdown: ^1.2.1
+  flutter_polyline_points: ^0.2.4
+  rounded_loading_button: ^1.0.18
+  flutter_mapbox_navigation: ^0.0.19
+  fl_chart: any
+  upi_india: ^2.2.0+1
+#  camera_camera: ^1.0.6
+  #  audioplayers: ^0.17.4
+  pdf: 2.1.0
+  flutter_share: ^1.0.5
+  flutter_full_pdf_viewer: ^1.0.6
+  flutter_email_sender: ^5.0.0
+#  camera_camera: ^2.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^1.10.2
+  json_serializable: ^3.5.0
+  retrofit_generator: ^1.3.8+5
+  url_launcher: ^6.0.2
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/icons/active.svg
+    - assets/icons/inactive.svg
+    - assets/icons/auto.svg
+    - assets/icons/flat.svg
+    - assets/icons/Group.svg
+    - assets/icons/gift.svg
+    - assets/icons/announce.svg
+    - assets/icons/steering.svg
+    - assets/icons/profile.svg
+    - assets/icons/partnership.svg
+    - assets/icons/money.svg
+    - assets/icons/che.svg
+    - assets/icons/Group.png
+    - assets/icons/paytm.png
+    - assets/icons/wallet.png
+    - assets/incentive/smartphone.svg
+    - assets/incentive/nearby.svg
+    - assets/incentive/surface1.svg
+    - assets/incentive/Group.svg
+    - assets/incentive/24-hours.svg
+    - assets/incentive/email.svg
+    - assets/incentive/semantic-web.svg
+    - assets/profile/user.svg
+    - assets/profile/car-insurance.svg
+    - assets/profile/customer.svg
+    - assets/profile/deposit.svg
+    - assets/profile/power.svg
+    - assets/profile/range.svg
+    - assets/profile/settings.svg
+    - assets/profile/sos.svg
+    - assets/profile/star.svg
+    - assets/profile/Group 9953.svg
+    - assets/profile/Docs_3_.svg
+    - assets/vehicle/auto.svg
+    - assets/vehicle/bus.svg
+    - assets/vehicle/car.svg
+    - assets/vehicle/Group 9688.svg
+    - assets/vehicle/Glyph.svg
+    - assets/vehicle/Group 9854.svg
+    - assets/vehicle/truck.svg
+    - assets/vehicle/car-suv.svg
+    - assets/vehicle/sedan-car-model.svg
+    - assets/coin.png
+    - assets/reffer.png
+    - assets/call.png
+    - assets/mail.png
+    - assets/user.png
+    - assets/search.png
+    - assets/customer_service.png
+    - assets/india.png
+    - assets/wallet.png
+    - assets/coupon.png
+    - assets/Go.png
+    - assets/intro1.png
+    - assets/intro2.png
+    - assets/intro3.png
+    - assets/first.png
+    - assets/ride.gif
+    - assets/sound/warning.mp3
